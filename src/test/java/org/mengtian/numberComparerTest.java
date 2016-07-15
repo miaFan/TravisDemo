@@ -1,9 +1,8 @@
 package org.mengtian;
 
-import junit.framework.Assert;
 import org.junit.Test;
 
-import static junit.framework.Assert.*;
+import static junit.framework.Assert.assertEquals;
 
 
 public class numberComparerTest {
