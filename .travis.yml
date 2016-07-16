@@ -1,2 +1,17 @@
+#specify
 language: java
+
 script: gradle test
+
+after_script:
+  - echo "this is a command" && echo "this is another command"
+
+
+notifications: # set notification options
+  email:
+    recipients:
+      - fan.mengtian@gmail.com
+
+    # change is when the repo status goes from pass to fail or vice versa
+    on_success: change
+    on_failure: always
