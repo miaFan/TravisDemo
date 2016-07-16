@@ -22,7 +22,6 @@ public class numberComparerTest {
         assertEquals("4A0B", comparisonResult);
     }
 
-
     @Test
     public void should_return_1A0B_when_comparing_1234_and_1567() {
         NumberComparer numberComparer = new NumberComparer();
@@ -54,5 +53,4 @@ public class numberComparerTest {
 
         assertEquals("1A1B", comparisonResult);
     }
-
 }

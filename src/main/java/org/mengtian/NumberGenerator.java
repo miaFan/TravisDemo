@@ -14,7 +14,6 @@ public class NumberGenerator {
             char generatedChar = randomDigitGenerator.generate();
             if (generatedNumber.indexOf(generatedChar) >= 0) {
                 continue;
-
             } else {
                 generatedNumber += generatedChar;
                 i++;
